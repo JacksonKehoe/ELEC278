@@ -1,0 +1,7 @@
+# Makefile for Step 4
+
+main:	main.o myString.o
+
+main.o:	main.c myString.h
+
+myString.o:	myString.h myString.c
